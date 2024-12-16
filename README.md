@@ -399,6 +399,11 @@ sudo ip route del default
 - **Ejecutar Vagrant + provisions**: Ejecutamos en nuestra terminal vagrant up --provision o primero vagrant up y posteriormente vagrant provision.
 - **Acceder a Owncloud**: Pondremos la ip pública que nos da nuestro balanceador (hacer vagrant ssh a la máquina del balanceador y poner ip a para ver la ip pública); http://ip_pública_balanceador/owncloud y pondremos nuestras credenciales de admin.
 
+El resulatdo final debería ser el siguiente:
+![log owncloud](https://github.com/user-attachments/assets/2edc0125-f117-4fa3-a09c-5dc0ec7612e8)
+![pagina de owncloud](https://github.com/user-attachments/assets/242e8626-9c4d-4e78-a0e3-c56121c7f1fa)
+
+
 ## Conclusión
 En esta práctica podremos ver cómo configurar un entorno virtualizado para OwnCloud utilizando Vagrant y scripts automatizados. La separación de roles en diferentes máquinas garantiza escalabilidad y flexibilidad, y el uso de almacenamiento compartido centralizado facilita la gestión de datos en múltiples servidores.
 
